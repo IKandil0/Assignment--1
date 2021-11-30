@@ -4,6 +4,7 @@ using System.Collections.Generic;
 class Program
 {
     static void Main(string[] args)
+    
     {
         Random r = new Random();
         var array1 = new int[10];
@@ -16,7 +17,9 @@ class Program
         Console.WriteLine();
         Differance(array1, array2);
     }
+    
     static void InitData(int[] array1, int[] array2, Random r)
+    
     {
         for (int i = 0; i < array1.Length; i++)
         {
